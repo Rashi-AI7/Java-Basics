@@ -1,3 +1,5 @@
+//To print all even numbers till n
+
 import java.util.*;
 
 public class evennum{
