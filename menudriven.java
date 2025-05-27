@@ -1,3 +1,4 @@
+//Menu Driven program to keep taking input from the user for a student's marks out of hundred as per the user's choice (1/0)
 import java.util.*;
 
 public class menudriven {
