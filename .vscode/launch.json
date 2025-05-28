@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "evennum",
+            "request": "launch",
+            "mainClass": "evennum",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
+            "name": "firstclass",
+            "request": "launch",
+            "mainClass": "firstclass",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
+            "name": "fourthclass",
+            "request": "launch",
+            "mainClass": "fourthclass",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
+            "name": "invertedpattern",
+            "request": "launch",
+            "mainClass": "invertedpattern",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
+            "name": "menudriven",
+            "request": "launch",
+            "mainClass": "menudriven",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
+            "name": "primenum",
+            "request": "launch",
+            "mainClass": "primenum",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
+            "name": "rectanglepattern",
+            "request": "launch",
+            "mainClass": "rectanglepattern",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
+            "name": "secondclass",
+            "request": "launch",
+            "mainClass": "secondclass",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
+            "name": "thirdclass",
+            "request": "launch",
+            "mainClass": "thirdclass",
+            "projectName": "Java-Programs_a3d16be1"
+        }
+    ]
+}
