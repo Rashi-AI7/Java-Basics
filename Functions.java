@@ -8,6 +8,7 @@ public class Functions {
         System.out.println("The product is: " + product(a, b));
         Factorial.printFact(sc);
         sum.printsum(sc);
+        greatint.printint(sc);
         
     }
     public static int product(int a, int b){
@@ -56,6 +57,25 @@ class sum{
     }
 }
 
+//To find the greatest number
 
+class greatint{
+    public static void printint(Scanner sc){
+        System.err.print("Enter the first number: ");
+        int a = sc.nextInt();
+        System.out.print("Enter the second number: ");
+        int b = sc.nextInt();
+        getgreat(a, b);
+    }
+
+    public static void getgreat(int a, int b) {
+        if(a>b){
+            System.out.println(a + " is greater than " + b);
+        }
+        else{
+            System.out.println(b + " is greater than " + a);
+        }
+    }
+}
 
 
