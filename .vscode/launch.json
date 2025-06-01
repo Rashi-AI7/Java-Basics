@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "power",
+            "request": "launch",
+            "mainClass": "power",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
             "name": "count",
             "request": "launch",
             "mainClass": "count",
