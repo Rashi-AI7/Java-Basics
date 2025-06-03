@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//To find maximum and minimum number 
+
 public class minmaxarray {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -24,8 +26,8 @@ public class minmaxarray {
                 max = arr[i];
             }
         }
-        System.out.println("Maximun NUmber: " + max);
-        System.out.println("Minimum number: " + min);
+        System.out.println("Largest NUmber: " + max);
+        System.out.println("Smallest number: " + min);
 
         sc.close();
     }
