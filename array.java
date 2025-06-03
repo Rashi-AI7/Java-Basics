@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+//To take an array as input and printing its elements
 public class array {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -15,3 +16,6 @@ public class array {
         sc.close();
     }
 }
+
+
+
