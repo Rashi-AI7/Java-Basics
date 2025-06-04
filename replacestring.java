@@ -1,10 +1,12 @@
 import java.util.Scanner;
 
-//to replace 'e' with 'i'
-
 public class replacestring {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+    
+        //to replace 'e' with 'i'
+
+        System.out.println("Enter any string: ");
         String str = sc.nextLine();
         String result = "";
 
@@ -16,6 +18,20 @@ public class replacestring {
             }
         }
         System.out.println(result);
-        sc.close();
+
+        //toExtract userName from emailID
+
+        System.out.println("Enter you Email ID: ");
+        String email = sc.nextLine();
+        String userName = "";
+        for(int i=0; i<email.length(); i++){
+            if(email.charAt(i) == '@'){         //username ends here if '@' is found
+                break;                         
+            }else{
+                userName+=email.charAt(i);
+            }
+        }
+        System.out.println("Your username is: " + userName);  //for e.g email: vscode123@gmail.com
+        sc.close();                                                //password: vscode123
     }
 }
