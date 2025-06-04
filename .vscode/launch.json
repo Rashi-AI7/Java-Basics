@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stringbuilder",
+            "request": "launch",
+            "mainClass": "stringbuilder",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
             "name": "replacestring",
             "request": "launch",
             "mainClass": "replacestring",
