@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bitmanipulation",
+            "request": "launch",
+            "mainClass": "bitmanipulation",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
             "name": "stringbuilder",
             "request": "launch",
             "mainClass": "stringbuilder",
