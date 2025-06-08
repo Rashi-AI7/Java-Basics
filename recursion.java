@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//Backward counting from n
 
 public class recursion {
     public static void main(String[] args) {
@@ -7,6 +8,7 @@ public class recursion {
         int n = sc.nextInt();
         printBack(n);
         recursion2.printnum(sc);
+        recursion3.printFact(sc);
         
         sc.close();
     }
@@ -18,10 +20,11 @@ public class recursion {
             printBack(n-1);
         }
 }
+//  Sum of first n natural numbers
 
 class recursion2 {
     public static void printnum(Scanner sc){
-        System.out.println("Enter any natural number to get it's sum: ");
+        System.out.print("Enter n: ");
         int m = sc.nextInt();
         int sum = 0;
         printsum(m, sum);
@@ -31,8 +34,25 @@ class recursion2 {
             System.out.println(sum);
             return;
         }
-        
         sum+=m;
         printsum(m-1, sum);
+    }
+}
+
+//Factorial Using recursion
+
+class recursion3{
+    public static void printFact(Scanner sc) {
+        System.out.print("Enter the number to get it's factorial: ");
+        int p = sc.nextInt();
+        System.out.println("The Factorial of " + p + " is " + calcFact(p));
+    }
+
+    public static int calcFact(int p){
+        if(p==0||p==1){
+        return 1;
+        }else{
+        return p*calcFact(p-1);
+        }
     }
 }
