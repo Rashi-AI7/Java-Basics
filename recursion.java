@@ -9,6 +9,7 @@ public class recursion {
         printBack(n);
         recursion2.printnum(sc);
         recursion3.printFact(sc);
+        recursion4.printFibo(sc);
         
         sc.close();
     }
@@ -53,6 +54,31 @@ class recursion3{
         return 1;
         }else{
         return p*calcFact(p-1);
+        }
+    }
+}
+
+//Fibonacci Series
+
+class recursion4{
+    public static void printFibo(Scanner sc){
+        System.out.print("Enter the number: ");
+        int q = sc.nextInt();
+        int a = 0;
+        int b = 1;
+        System.out.println(a);
+        System.out.println(b);
+        calcFibo(a, b, q);
+        
+    }
+
+    public static void calcFibo(int a, int b, int q){
+        if(q==0){
+            return;
+        }else{
+            int c = a + b;
+            System.out.println(c);
+            calcFibo(b, c, q-1);
         }
     }
 }

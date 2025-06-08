@@ -41,7 +41,7 @@ public class bitmanipulation {
         }else if(oper == 0){
             //clear bit
             int newNumber3 = (~(bitMask4)) & q ;
-            System.out.println(newNumber3); //0101-->5
+            System.out.println(newNumber3); //0100-->4
         }
         sc.close();
     }
