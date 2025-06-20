@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "calcPowlogn",
+            "request": "launch",
+            "mainClass": "calcPowlogn",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
             "name": "towerOfHanoi",
             "request": "launch",
             "mainClass": "towerOfHanoi",

@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// power calculation using recursions, stack height = n
 
 public class calcpower {
     public static void main(String[] args) {
@@ -8,7 +9,7 @@ public class calcpower {
         System.out.print("Enter n: ");
         int n = sc.nextInt();
         System.out.print(x + " raise to the power " + n + " is " + calcpow(x, n));
-    
+        sc.close();
     }
 
     public static int calcpow(int x, int n){
@@ -22,3 +23,4 @@ public class calcpower {
         return xpown;
     }
 }
+
