@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reversestring",
+            "request": "launch",
+            "mainClass": "reversestring",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
             "name": "moveallx",
             "request": "launch",
             "mainClass": "moveallx",
