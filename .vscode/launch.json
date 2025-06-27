@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "oops",
+            "request": "launch",
+            "mainClass": "oops",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
             "name": "subsequences",
             "request": "launch",
             "mainClass": "subsequences",
