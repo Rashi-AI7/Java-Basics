@@ -17,7 +17,9 @@ public class arraylist {
     clr.add("Blue");
     clr.add("Green");
     clr.set(2, "Orange");
-
+    
+    //remove
+    clr.remove("Red");
     System.out.println("Evn numbers: " + arr);
     System.out.println("Colours: " + clr);
     }
