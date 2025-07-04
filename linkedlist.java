@@ -32,6 +32,18 @@ class LL{
         curr.next = newNode;
     }
 
+    //search in linkedlist
+
+    boolean search(int key){
+        Node curr = head;
+        while(curr.next != null){
+            if(curr.data  == key){
+            return true;
+        }
+        curr = curr.next;
+    }
+    return false;
+}
 
     //printList
     void printList(){
@@ -50,6 +62,9 @@ public class linkedlist {
         list.addFirst(2);
         list.addFirst(1);
         list.addLast(4);
+        // list.search(3);
+        System.out.println("Element found? " + list.search(3) );
+
         list.printList();
     }
 }
