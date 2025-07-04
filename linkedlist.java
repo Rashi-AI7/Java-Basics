@@ -75,6 +75,26 @@ class LL{
         secondLast.next = null;
     }
 
+
+    //Reverse a linkedlist
+    public void reversell(){
+        if(head == null || head.next == null){
+            return;
+        }
+        Node prev = null;
+        Node curr = head;
+        Node Next = null;
+        while(curr != null){
+            Next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = Next;
+        }
+        head = prev;
+        System.out.println("Now head is: " +  head.data);
+    }
+
+
     //printList
     void printList(){
         Node curr = head;
@@ -93,8 +113,9 @@ public class linkedlist {
         list.addFirst(1);
         list.addLast(4);
         System.out.println("Element found? " + list.search(2) );
-        list.deleteFirst();
-        list.deleteLast();
+        // list.deleteFirst();
+        // list.deleteLast();
+        list.reversell();
         list.printList();
     }
 }
