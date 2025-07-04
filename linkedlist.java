@@ -18,6 +18,21 @@ class LL{
         head = newNode;
     }
 
+    //addLast
+    void addLast(int data){
+        Node newNode = new Node(data);
+        if(head == null){
+            head = newNode;
+            return;
+        }
+        Node curr = head;
+        while(curr.next != null){
+            curr = curr.next;
+        }
+        curr.next = newNode;
+    }
+
+
     //printList
     void printList(){
         Node curr = head;
@@ -34,6 +49,7 @@ public class linkedlist {
         list.addFirst(3);
         list.addFirst(2);
         list.addFirst(1);
+        list.addLast(4);
         list.printList();
     }
 }
