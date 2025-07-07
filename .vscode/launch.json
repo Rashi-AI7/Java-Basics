@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mergesort",
+            "request": "launch",
+            "mainClass": "mergesort",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
             "name": "linkedlist",
             "request": "launch",
             "mainClass": "linkedlist",
