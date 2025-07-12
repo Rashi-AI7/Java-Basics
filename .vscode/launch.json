@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StackAL",
+            "request": "launch",
+            "mainClass": "StackAL",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
             "name": "QuickSort",
             "request": "launch",
             "mainClass": "QuickSort",
