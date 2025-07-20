@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QueueC",
+            "request": "launch",
+            "mainClass": "QueueC",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
             "name": "QueueB",
             "request": "launch",
             "mainClass": "QueueB",
