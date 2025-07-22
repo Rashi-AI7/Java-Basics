@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinaryQ",
+            "request": "launch",
+            "mainClass": "BinaryQ",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
             "name": "BinaryTrees",
             "request": "launch",
             "mainClass": "BinaryTrees",
