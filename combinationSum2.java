@@ -14,7 +14,7 @@ public class combinationSum2 {
     private void backTrack(int arr[], int target, int start, ArrayList<Integer> current, ArrayList<ArrayList<Integer>> result ){
         if(target == 0){
             result.add(new ArrayList<>(current));
-            return;
+            return; 
         }
 
         for(int i=start; i<arr.length; i++){
