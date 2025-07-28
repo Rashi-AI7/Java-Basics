@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "combinationSum2",
+            "request": "launch",
+            "mainClass": "combinationSum2",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
             "name": "combinationSum",
             "request": "launch",
             "mainClass": "combinationSum",
