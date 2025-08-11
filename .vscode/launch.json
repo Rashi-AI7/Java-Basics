@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "levelorderTraversal",
+            "request": "launch",
+            "mainClass": "levelorderTraversal",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
+            "name": "inorderTraversal",
+            "request": "launch",
+            "mainClass": "inorderTraversal",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
             "name": "postrderTraversal",
             "request": "launch",
             "mainClass": "postrderTraversal",
