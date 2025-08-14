@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IntSet",
+            "request": "launch",
+            "mainClass": "IntSet",
+            "projectName": "Java-Programs_a3d16be1"
+        },
+        {
+            "type": "java",
             "name": "UnionHashSet",
             "request": "launch",
             "mainClass": "UnionHashSet",
