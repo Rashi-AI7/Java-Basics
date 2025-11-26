@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prefixMul",
+            "request": "launch",
+            "mainClass": "prefixMul",
+            "projectName": "Java-Programs_66f5279f"
+        },
+        {
+            "type": "java",
             "name": "getnozeroint",
             "request": "launch",
             "mainClass": "getnozeroint",
