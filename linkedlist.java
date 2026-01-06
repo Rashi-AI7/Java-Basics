@@ -18,6 +18,19 @@ class LL{
         head = newNode;
     }
 
+    //addinmiddle
+    void addinMiddle(int idx, int data){
+        Node newNode = new Node(data);
+        Node temp = head;
+        int i=0;
+        while(i<idx-1){
+            temp = temp.next;
+            i++;
+        }
+        //i=idx
+        newNode.next = temp.next;
+        temp.next = newNode;
+    }
     //addLast
     void addLast(int data){
         Node newNode = new Node(data);
@@ -112,10 +125,11 @@ public class linkedlist {
         list.addFirst(2);
         list.addFirst(1);
         list.addLast(4);
-        System.out.println("Element found? " + list.search(2) );
+        System.out.println("Element found? " + list.search(4) );
         // list.deleteFirst();
         // list.deleteLast();
-        list.reversell();
+        // list.reversell();
+        list.addinMiddle(2, 5);
         list.printList();
     }
 }
