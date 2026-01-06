@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "linkedlist",
+            "request": "launch",
+            "mainClass": "linkedlist",
+            "projectName": "Java-Programs_66f5279f"
+        },
+        {
+            "type": "java",
+            "name": "inheritance",
+            "request": "launch",
+            "mainClass": "inheritance",
+            "projectName": "Java-Programs_66f5279f"
+        },
+        {
+            "type": "java",
+            "name": "prefixMul",
+            "request": "launch",
+            "mainClass": "prefixMul",
+            "projectName": "Java-Programs_66f5279f"
+        },
+        {
+            "type": "java",
             "name": "getnozeroint",
             "request": "launch",
             "mainClass": "getnozeroint",
