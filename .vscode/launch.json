@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Friends",
+            "request": "launch",
+            "mainClass": "Friends",
+            "projectName": "Java-Programs_66f5279f"
+        },
+        {
+            "type": "java",
+            "name": "Tilling",
+            "request": "launch",
+            "mainClass": "Tilling",
+            "projectName": "Java-Programs_66f5279f"
+        },
+        {
+            "type": "java",
             "name": "linkedlist",
             "request": "launch",
             "mainClass": "linkedlist",

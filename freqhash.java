@@ -1,4 +1,6 @@
 //leetcode - 3005
+import java.util.HashMap;
+import java.util.Scanner;
 class Solution {
     public static int maxFrequencyElements(int[] nums) {
         HashMap<Integer, Integer> freq  = new HashMap<>();

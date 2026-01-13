@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class armstrong {
     public static boolean isArmstrong(int n) {
         int count = 0;
