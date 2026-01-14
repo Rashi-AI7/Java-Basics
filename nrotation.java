@@ -8,7 +8,6 @@ class nrotation {
                 index = low;
                 ans = nums[low];
             }
-            break;
             int mid = (low+high)/2;
             if(nums[mid]<nums[low]){
                 if(nums[mid]<ans){
@@ -25,4 +24,4 @@ class nrotation {
     return index;
     }
 }
-}
+

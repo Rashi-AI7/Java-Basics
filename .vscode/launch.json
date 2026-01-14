@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinaryString",
+            "request": "launch",
+            "mainClass": "BinaryString",
+            "projectName": "Java-Programs_66f5279f"
+        },
+        {
+            "type": "java",
             "name": "Friends",
             "request": "launch",
             "mainClass": "Friends",
