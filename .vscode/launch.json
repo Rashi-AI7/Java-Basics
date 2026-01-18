@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "subarraySum",
+            "request": "launch",
+            "mainClass": "subarraySum",
+            "projectName": "Java-Programs_66f5279f"
+        },
+        {
+            "type": "java",
             "name": "BinaryString",
             "request": "launch",
             "mainClass": "BinaryString",
