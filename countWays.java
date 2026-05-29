@@ -1,5 +1,5 @@
 import java.util.*;
-
+//Count the ways to reach nth stair, if 1 and 2 steps are allowed to take at one time.
 public class countWays {
     public static int waysMemo(int n, int ways[]){
         if(n==0) return 1;

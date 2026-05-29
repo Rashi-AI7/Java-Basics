@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NearbyCars",
+            "request": "launch",
+            "mainClass": "Heap.NearbyCars",
+            "projectName": "Java-Programs_66f5279f"
+        },
+        {
+            "type": "java",
+            "name": "Heap",
+            "request": "launch",
+            "mainClass": "Heap.Heap",
+            "projectName": "Java-Programs_66f5279f"
+        },
+        {
+            "type": "java",
             "name": "countWays",
             "request": "launch",
             "mainClass": "countWays",
